@@ -7,7 +7,8 @@ const dbConfigRender = {
 	user: "freedb_2350_main",
 	password: "SA33#V&vwb&!GUm",
 	database: "freedb_comp2350-week2-A01274308",
-	multipleStatements: false
+	multipleStatements: false,
+	namedPlaceholders: true
 };
 
 const dbConfigLocal = {
@@ -15,7 +16,8 @@ const dbConfigLocal = {
 	user: "root",
 	password: "El11fordawin",
 	database: "mysql", 
-	multipleStatements: false
+	multipleStatements: false,
+	namedPlaceholders: true
 };
 
 if (is_render) {
